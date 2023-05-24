@@ -42,7 +42,7 @@ const myfunction =function(){
 }
 
  
-//console.log (typeof  jangju);
+console.log (typeof  jangju);
 
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // stack memory (premitive) and heap memory(non-perimitive)
