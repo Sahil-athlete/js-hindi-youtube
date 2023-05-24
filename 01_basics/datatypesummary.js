@@ -10,41 +10,65 @@ array, object, function */
 
 //premitive example
 
-const string = "123"
+// const string = "123"
 
-const score = 100
-const scoreValue= 100.2
+// const score = 100
+// const scoreValue= 100.2
 
-const isLoggedIn = false
+// const isLoggedIn = false
 
-const outSideTemp = null
+// const outSideTemp = null
 
-let userMail;
+// let userMail;
 
-const Id = Symbol ('2321')
-const uniqueId = Symbol ('2321')
-console.log(Id === uniqueId);
+// const Id = Symbol ('2321')
+// const uniqueId = Symbol ('2321')
+// console.log(Id === uniqueId);
 
-const bigInt = 12333445321345522n
+// const bigInt = 12333445321345522n
 
-//non premetive example
+// //non premetive example
 
-const jangju = ["khalidbinwalid, umarfarooque, aliabnabitalib"]
+// const jangju = ["khalidbinwalid, umarfarooque, aliabnabitalib"]
 
-let obj= {
+// let obj= {
 
-    name:"sahil",
-    age: 21,
-}
+//     name:"sahil",
+//     age: 21,
+// }
 
-const myfunction =function(){
-    console.log("hellow world");
-}
+// const myfunction =function(){
+//     console.log("hellow world");
+// }
 
  
 //console.log (typeof  jangju);
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// stack memory (premitive) and heap memory(non-perimitive)
 
+let myName = "sahilkhan"
+
+let anotherName = myName
+
+anotherName= "sahilathlete"
+
+console.log(anotherName);
+
+console.log(myName);
+
+let userOne={
+    email:"asdder@gmail.com",
+    upi:"12331@ybl"
+}
+ 
+let userTwo = userOne
+
+userTwo.email= "saddeqdf@gmail.com"
+
+console.log(userTwo.email);
+
+console.log(userTwo.email);
 
  
 
