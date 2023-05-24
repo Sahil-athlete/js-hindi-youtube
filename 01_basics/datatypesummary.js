@@ -10,36 +10,36 @@ array, object, function */
 
 //premitive example
 
-// const string = "123"
+const string = "123"
 
-// const score = 100
-// const scoreValue= 100.2
+const score = 100
+const scoreValue= 100.2
 
-// const isLoggedIn = false
+const isLoggedIn = false
 
-// const outSideTemp = null
+const outSideTemp = null
 
-// let userMail;
+let userMail;
 
-// const Id = Symbol ('2321')
-// const uniqueId = Symbol ('2321')
-// console.log(Id === uniqueId);
+const Id = Symbol ('2321')
+const uniqueId = Symbol ('2321')
+console.log(Id === uniqueId);
 
-// const bigInt = 12333445321345522n
+const bigInt = 12333445321345522n
 
 // //non premetive example
 
-// const jangju = ["khalidbinwalid, umarfarooque, aliabnabitalib"]
+const jangju = ["khalidbinwalid, umarfarooque, aliabnabitalib"]
 
-// let obj= {
+let obj= {
 
-//     name:"sahil",
-//     age: 21,
-// }
+    name:"sahil",
+    age: 21,
+}
 
-// const myfunction =function(){
-//     console.log("hellow world");
-// }
+const myfunction =function(){
+    console.log("hellow world");
+}
 
  
 //console.log (typeof  jangju);
