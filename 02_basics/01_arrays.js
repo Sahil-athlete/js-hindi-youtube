@@ -8,6 +8,7 @@ console.log(arrays[0]);
 
 
 arrays.push(7)
+arrays.pop()
 arrays.unshift(8)
 arrays.shift()
 console.log(arrays);
