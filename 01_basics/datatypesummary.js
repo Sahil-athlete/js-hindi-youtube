@@ -29,7 +29,7 @@ const bigInt = 12333445321345522n
 
 // //non premetive example
 
-const jangju = ["khalidbinwalid, umarfarooque, aliabnabitalib"]
+const jungju = ["khalidbinwalid, umarfarooque, aliabnabitalib"]
 
 let obj= {
 
@@ -42,7 +42,7 @@ const myfunction =function(){
 }
 
  
-console.log (typeof  jangju);
+console.log (typeof  jungju);
 
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 // stack memory (premitive) and heap memory(non-perimitive)
