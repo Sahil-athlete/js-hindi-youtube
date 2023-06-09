@@ -33,9 +33,37 @@ function userLogedIn(message="sam"){
     return ` ${message} just loged in`   //after return you can't print anything.  
              
 }
-console.log(userLogedIn("sahil"));
+// console.log(userLogedIn("sahil"));
+
+function calculateShpingCart(val1, val2, ...num1){
+    return   num1 
+}
+console.log(calculateShpingCart(1, 12, 122, 3344, 433311));
 
 
+const  user = {
+    username : "sahil",
+    prices : 999
+ }
+
+function addObject(anyuser){
+    console.log(`the name is ${anyuser.username} and price of course is ${anyuser.price}`)
 
 
+}
+//addObject(user)
+addObject({
+    username : "small",
+    price : 12
+})
 
+myNewArray =[ 100,200,3000]
+
+
+function addArray (getArray){
+    return getArray[0]
+         
+}
+
+// console.log(addArray(myNewArray));
+console.log(addArray([100, 200, 300]))
