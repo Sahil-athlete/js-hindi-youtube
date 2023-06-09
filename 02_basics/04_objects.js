@@ -68,13 +68,13 @@ const {courseName : a} = course
 // console.log(courseName);
 console.log(a);
 
-{
-    "name" : "sahil" ,
-    "corseName" : "javascript in ",
-    "address" : "d sector " , 
-    "area" : "cheeta camp"    
+// {
+//     "name" : "sahil" ,
+//     "corseName" : "javascript in ",
+//     "address" : "d sector " , 
+//     "area" : "cheeta camp"    
 
-}
+// }
 //  this is the formt of json when api call 
 
 [
